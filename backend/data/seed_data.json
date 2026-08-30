@@ -1,0 +1,93 @@
+{
+  "customers": [
+    {"customer_id": "CUST1001", "name": "Priya Sharma", "email": "priya.sharma@example.com", "loyalty_tier": "gold"},
+    {"customer_id": "CUST1002", "name": "Arjun Mehta", "email": "arjun.mehta@example.com", "loyalty_tier": "standard"},
+    {"customer_id": "CUST1003", "name": "Sara Lopez", "email": "sara.lopez@example.com", "loyalty_tier": "standard"}
+  ],
+  "orders": [
+    {
+      "order_id": "ORD5001",
+      "customer_id": "CUST1001",
+      "status": "delivered",
+      "order_days_ago": 20,
+      "delivery_days_ago": 16,
+      "tracking_number": "TRK889201",
+      "carrier": "BlueDart",
+      "total_amount": 2499.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM01", "name": "Wireless Headphones", "quantity": 1, "price": 2499.00}
+      ]
+    },
+    {
+      "order_id": "ORD5002",
+      "customer_id": "CUST1001",
+      "status": "in_transit",
+      "order_days_ago": 6,
+      "expected_delivery_days_from_now": 3,
+      "last_tracking_update_days_ago": 6,
+      "tracking_number": "TRK889340",
+      "carrier": "Delhivery",
+      "total_amount": 1199.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM02", "name": "Bluetooth Speaker", "quantity": 1, "price": 1199.00}
+      ]
+    },
+    {
+      "order_id": "ORD5003",
+      "customer_id": "CUST1002",
+      "status": "delivered",
+      "order_days_ago": 39,
+      "delivery_days_ago": 35,
+      "tracking_number": "TRK770021",
+      "carrier": "BlueDart",
+      "total_amount": 8999.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM03", "name": "Smartwatch Pro", "quantity": 1, "price": 8999.00}
+      ]
+    },
+    {
+      "order_id": "ORD5004",
+      "customer_id": "CUST1002",
+      "status": "cancelled",
+      "order_days_ago": 12,
+      "tracking_number": null,
+      "carrier": null,
+      "total_amount": 599.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM04", "name": "Phone Case", "quantity": 2, "price": 299.50}
+      ]
+    },
+    {
+      "order_id": "ORD5005",
+      "customer_id": "CUST1003",
+      "status": "delivered",
+      "order_days_ago": 25,
+      "delivery_days_ago": 21,
+      "tracking_number": "TRK112233",
+      "carrier": "Delhivery",
+      "total_amount": 15999.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM05", "name": "Air Fryer XL", "quantity": 1, "price": 15999.00}
+      ]
+    },
+    {
+      "order_id": "ORD5006",
+      "customer_id": "CUST1003",
+      "status": "processing",
+      "order_days_ago": 3,
+      "expected_delivery_days_from_now": 5,
+      "tracking_number": null,
+      "carrier": null,
+      "total_amount": 349.00,
+      "currency": "INR",
+      "items": [
+        {"item_id": "ITM06", "name": "USB-C Cable 2m", "quantity": 1, "price": 349.00}
+      ]
+    }
+  ]
+}
